@@ -1,0 +1,71 @@
+h2 {
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(106, 86, 218);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+    background: url(signup.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    margin-top: 15px;
+    transition: all 4s ease-in-out;
+}
+
+.signup {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+input {
+    margin-top: 25px;
+    font-size: 18px;
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    outline: auto;
+    font-size: 18px;
+    background-color: darkorange;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+#alreadyuser {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#signup {
+    font-weight: bold;
+    font-style: italic;
+}
+
+button:hover {
+    background-color: coral;
+    cursor: pointer;
+}
