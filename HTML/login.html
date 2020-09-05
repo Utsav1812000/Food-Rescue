@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='.//login.css') }}">
+</head>
+
+<body>
+    <h2>Login Page</h2>
+    <form action="" class="login">
+        <div>
+            <input type="email" name="email" placeholder="Email-id">
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="Password">
+        </div>
+        <div>
+            <input type="checkbox" name="checkbox" id="checkbox" placeholder="Password">
+        </div>
+        Remember me
+        <div>
+            <button onclick="contactform.html">
+                <a href="/home">Login</a>
+            </button>
+        </div>
+
+        <div id="signup">
+            <br> New User: <a href="/signup">Signup here</a>
+        </div>
+    </form>
+
+</body>
+
+</html>
